@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bachoco</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="img/Logo-BACHOCO-blanco.png" alt="bachoco">
+        </div>
+        <!--Navbar-->
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#Inicio">Lo mas vendido</a></li>
+                <li><a href="#Huevo">Huevo</a></li>
+                <li><a href="#Pollo">Pollo</a></li>
+                <li><a href="#Cerdo">Cerdo</a></li>
+                <li><a href="#Res">Res</a></li>
+            </ul>
+        </nav>
+
+        <a onclick="openNav()" class="menu" href="#"><button>Menu</button></a>
+
+        <div class="overlay" id="mobile-menu">
+            <a onclick="closeNav()" href="" class="close">&times;</a>
+            <div class="overlay-content">
+                <a onclick="closeNav()" href="#Inicio">Lo mas vendido</a>
+                <a onclick="closeNav()" href="#Huevo">Huevo</a>
+                <a onclick="closeNav()" href="#Pollo">Pollo</a>
+                <a onclick="closeNav()" href="#Cerdo">Cerdo</a>
+                <a onclick="closeNav()" href="#Res">Res</a>
+            </div>
+        </div>
+    </header>
+    
+    
+    
+
+    <section class="contenedor">
+
+
+        <!--Products-->
+        <!--Vendido-->
+        <div id="Inicio" class="Inicio"></div>
+            <div class="title">
+                <h1>Lo mas Vendido</h1>
+            </div>
+
+        <div class="contenedor-items">
+            <div class="item">
+                <img src="img/huevo/huevo-rojo-30.webp" alt="" class="img-item">
+                <h2><span class="titulo-item">HUEVO ROJO 30pz</span></h2>
+                <p><span class="precio-item">$80</span></p>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <img src="img/Res/8159-hamburguesa-arrachera-2-4kg-300x300.webp" alt="" class="img-item">
+                <h2><span class="titulo-item">HUEVO ROJO 30pz</span></h2>
+                <p><span class="precio-item">$80</span></p>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <img src="img/Cerdo/carne-para-asar-600x600-1-300x300.webp" alt="" class="img-item">
+                <h2><span class="titulo-item">HUEVO BLANCO 30pz</span></h2>
+                <p><span class="precio-item">$70</span></p>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+        </div>
+
+        <div id="Huevo" class="Huevo"></div>
+            <div class="title">
+                <h1>Lo mas Vendido</h1>
+            </div>
+
+        <div class="contenedor-items">
+            <div class="item">
+                <img src="img/huevo/huevo-rojo-30.webp" alt="" class="img-item">
+                <h2><span class="titulo-item">HUEVO ROJO 30pz</span></h2>
+                <p><span class="precio-item">$80</span></p>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <img src="img/huevo/huevo-rojo-12-pzas-1-300x300.webp" alt="" class="img-item">
+                <h2><span class="titulo-item">HUEVO ROJO 12pz</span></h2>
+                <p><span class="precio-item">$40</span></p>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <img src="img/huevo/heuvo-blanco-30-300x300.webp" alt="" class="img-item">
+                <h2><span class="titulo-item">HUEVO BLANCO 30pz</span></h2>
+                <p><span class="precio-item">$70</span></p>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <img src="img/huevo/cajonera-huevo-12-pzas-300x300.webp" alt="" class="img-item">
+                <h2><span class="titulo-item">HUEVO BLANCO 12pz</span></h2>
+                <p><span class="precio-item">$40</span></p>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <img src="img/huevo/12neranvaimagen600x600-1-300x300.webp" alt="" class="img-item">
+                <h2><span class="titulo-item">HUEVO LIBRE 12pz</span></h2>
+                <p><span class="precio-item">$45</span></p>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+        </div>
+
+        <div id="Pollo" class="Pollo"></div>
+            <div class="title">
+                <h1>Pollo</h1>
+            </div>
+
+        <div class="contenedor-items">
+            <div class="item">
+                <img src="img/Pollo/005-piernabola-300x300.webp" alt="" class="img-item">
+                <h2><span class="titulo-item">HUEVO ROJO 30pz</span></h2>
+                <p><span class="precio-item">$80</span></p>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <img src="img/Pollo/002-piernasinpiel-300x300.webp" alt="" class="img-item">
+                <h2><span class="titulo-item">HUEVO ROJO 12pz</span></h2>
+                <p><span class="precio-item">$40</span></p>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <img src="img/Pollo/007-pechugaamericano-300x300.webp" alt="" class="img-item">
+                <h2><span class="titulo-item">HUEVO BLANCO 30pz</span></h2>
+                <p><span class="precio-item">$70</span></p>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <img src="img/Pollo/020-alitas.webp" alt="" class="img-item">
+                <h2><span class="titulo-item">HUEVO BLANCO 12pz</span></h2>
+                <p><span class="precio-item">$40</span></p>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <img src="img/Pollo/001-pollopicosito-300x300.webp" alt="" class="img-item">
+                <h2><span class="titulo-item">HUEVO LIBRE 12pz</span></h2>
+                <p><span class="precio-item">$45</span></p>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+        </div>
+
+        <div id="Cerdo" class="Cerdo"></div>
+            <div class="title">
+                <h1>Cerdo</h1>
+            </div>
+
+        <div class="contenedor-items">
+            <div class="item">
+                <img src="img/Cerdo/milanesa-de-cerdo-600x600-1-300x300.webp" alt="" class="img-item">
+                <h2><span class="titulo-item">HUEVO ROJO 30pz</span></h2>
+                <p><span class="precio-item">$80</span></p>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <img src="img/Cerdo/chuleta-ahumada-cerdo-600x600-1-300x300.webp" alt="" class="img-item">
+                <h2><span class="titulo-item">HUEVO ROJO 12pz</span></h2>
+                <p><span class="precio-item">$40</span></p>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <img src="img/Cerdo/carne-para-asar-600x600-1-300x300.webp" alt="" class="img-item">
+                <h2><span class="titulo-item">HUEVO BLANCO 30pz</span></h2>
+                <p><span class="precio-item">$70</span></p>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <img src="img/Cerdo/trozo-de-cerdo-600x600-1-300x300.webp" alt="" class="img-item">
+                <h2><span class="titulo-item">HUEVO BLANCO 12pz</span></h2>
+                <p><span class="precio-item">$40</span></p>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <img src="img/Cerdo/molida-de-cerdo-300x300.webp" alt="" class="img-item">
+                <h2><span class="titulo-item">HUEVO LIBRE 12pz</span></h2>
+                <p><span class="precio-item">$45</span></p>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+        </div>
+
+        <div id="Res" class="Res"></div>
+            <div class="title">
+                <h1>Res</h1>
+            </div>
+
+        <div class="contenedor-items">
+            <div class="item">
+                <img src="img/Res/8159-hamburguesa-arrachera-2-4kg-300x300.webp" alt="" class="img-item">
+                <h2><span class="titulo-item">HUEVO ROJO 30pz</span></h2>
+                <p><span class="precio-item">$80</span></p>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <img src="img/Res/8227-1trosi-arrachera-burger-904g-300x300.webp" alt="" class="img-item">
+                <h2><span class="titulo-item">HUEVO ROJO 12pz</span></h2>
+                <p><span class="precio-item">$40</span></p>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <img src="img/Res/8175-hamb-sirloin-24-kg-300x300.webp" alt="" class="img-item">
+                <h2><span class="titulo-item">HUEVO BLANCO 30pz</span></h2>
+                <p><span class="precio-item">$70</span></p>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <img src="img/Res/sirloin-904-300x300.webp" alt="" class="img-item">
+                <h2><span class="titulo-item">HUEVO BLANCO 12pz</span></h2>
+                <p><span class="precio-item">$40</span></p>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+        </div>
+    </section>
+
+    <a onclick="openCar()" class="carrito-screen" href="#carr"><button><img src="icons/anadir-al-carrito (1).png" alt=""></button></a>
+
+        <div class="overlay-car" id="car">
+            <a onclick="closeCar()" href="" class="close-car">&times;</a>
+            <div class="overlay-content-car">
+                <div class="carrito" id="carrito">
+                    <div class="header-carrito">
+                        <h2>Tu Carrito</h2>
+                    </div>
+
+                    <div class="carrito-items">
+                    </div>
+                    <div class="carrito-total">
+                        <div class="fila">
+                            <strong>Tu Total</strong>
+                            <span class="carrito-precio-total">
+                                $0,00
+                            </span>
+                        </div>
+                        <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i> </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!--
+    <div class="wrapper">
+        <div class="cards_wrap">
+            <div class="card_item">
+                <div class="card_inner">
+                    <img class="img-item" src="img/huevo/huevo-rojo-30.webp"  alt="Huevo Rojo">
+                    <div class="name"><h3>HUEVO ROJO 30pz</h2> </div>
+                    <div class="price">$80</div>
+                    <div class="btn"><button>Agregar al carrito</button></div>
+                </div>
+            </div>
+            <div class="card_item">
+                <div class="card_inner">
+                    <img src="img/Res/8175-hamb-sirloin-24-kg-300x300.webp" alt="">
+                    <div class="name"><h3>HAMBURGUESA SIRLON 2.4kg</h2></div>
+                    <div class="price">$500</div>
+                    <button class="btn">Agregar al carrito</button>
+                </div>
+            </div>
+            <div class="card_item">
+                <div class="card_inner">
+                    <img src="img/Res/8159-hamburguesa-arrachera-2-4kg-300x300.webp" alt="Huevo Rojo">
+                    <div class="name"><h3>HAMBURGUESA ARRACHERA 2.4kg</h2> </div>
+                    <div class="price">$400</div>
+                    <div class="btn"><button>Agregar al carrito</button></div>
+                </div>
+            </div>
+        </div>
+    </div>  -->
+
+        <!--HUEVOS-->
+
+<!--
+    <div id="Huevo"></div>
+    <div class="title">
+        <h1>Huevo</h1>
+    </div>
+    
+    <div class="wrapper">
+        <div class="cards_wrap">
+            <div class="card_item" id="product">
+                <div class="card_inner">
+                    <img src="img/huevo/huevo-rojo-30.webp" alt="Huevo Rojo">
+                    <div class="name"><h3>HUEVO ROJO 30pz</h2> </div>
+                    <div class="price">$80</div>
+                    <div class="btn"><button>Agregar al carrito</button></div>
+                </div>
+            </div>
+            <div class="card_item" id="product">
+                <div class="card_inner">
+                    <img src="img/huevo/huevo-rojo-12-pzas-1-300x300.webp" alt="">
+                    <div class="name"><h3>HUEVO ROJO 12pz</h2></div>
+                    <div class="price">$40</div>
+                    <div class="btn"><button>Agregar al carrito</button></div>
+                </div>
+            </div>
+            <div class="card_item" id="product">
+                <div class="card_inner">
+                    <img src="img/huevo/heuvo-blanco-30-300x300.webp" alt="">
+                    <div class="name"><h3>HUEVO BLANCO 30 pz</h2></div>
+                    <div class="price">$60</div>
+                    <div class="btn"><button>Agregar al carrito</button></div>
+                </div>
+            </div>
+            <div class="card_item" id="product">
+                <div class="card_inner">
+                    <img src="img/huevo/12neranvaimagen600x600-1-300x300.webp" alt="">
+                    <div class="name"><h3>HUEVO BLANCO 12pz</h2></div>
+                    <div class="price">$30</div>
+                    <div class="btn"><button>Agregar al carrito</button></div>
+                </div>
+            </div>
+            <div class="card_item" id="product">
+                <div class="card_inner">
+                    <img src="img/huevo/cajonera-huevo-12-pzas-300x300.webp" alt="">
+                    <div class="name"><h3>HUEVO LIBRE 12pz</h2></div>
+                    <div class="price">$25</div>
+                    <div class="btn"><button>Agregar al carrito</button></div>
+                </div>
+            </div>
+        </div>
+    </div>-->
+
+        <!--Pollo-->
+<!--
+    <div id="Pollo"></div>
+    <div class="title">
+        <h1>Pollo</h1>
+    </div>
+    <div class="wrapper">
+        <div class="cards_wrap">
+            <div class="card_item" id="product">
+                <div class="card_inner">
+                    <img src="img/Pollo/007-pechugaamericano-300x300.webp" alt="Huevo Rojo">
+                    <div class="name"><h3>PECHUGA AMERICANA</h2> </div>
+                    <div class="price">$65</div>
+                    <div class="btn"><button>Agregar al carrito</button></div>
+                </div>
+            </div>
+            <div class="card_item" id="product">
+                <div class="card_inner">
+                    <img src="img/Pollo/005-piernabola-300x300.webp" alt="">
+                    <div class="name"><h3>PIRNA DE BOLA 4pz</h2></div>
+                    <div class="price">$45</div>
+                    <div class="btn"><button>Agregar al carrito</button></div>
+                </div>
+            </div>
+            <div class="card_item" id="product">
+                <div class="card_inner">
+                    <img src="img/Pollo/002-piernasinpiel-300x300.webp" alt="">
+                    <div class="name"><h3>PIERNA S/PIEL 5pz</h2></div>
+                    <div class="price">$55</div>
+                    <div class="btn"><button>Agregar al carrito</button></div>
+                </div>
+            </div>
+            <div class="card_item" id="product">
+                <div class="card_inner">
+                    <img src="img/Pollo/020-alitas.webp" alt="">
+                    <div class="name"><h3>ALITAS 6pz</h2></div>
+                    <div class="price">$55</div>
+                    <div class="btn"><button>Agregar al carrito</button></div>
+                </div>
+            </div>
+            <div class="card_item" id="product">
+                <div class="card_inner">
+                    <img src="img/Pollo/001-pollopicosito-300x300.webp" alt="">
+                    <div class="name"><h3>POLLO PICOZITO</h2></div>
+                    <div class="price">$75</div>
+                    <div class="btn"><button>Agregar al carrito</button></div>
+                </div>
+            </div>
+        </div>
+    </div>-->
+
+            <!--Cerdo-->
+<!--
+    <div id="Cerdo"></div>
+    <div class="title">
+        <h1>Cerdo</h1>
+    </div>
+    
+    <div class="wrapper">
+        <div class="cards_wrap">
+            <div class="card_item" id="product">
+                <div class="card_inner">
+                    <img src="img/Cerdo/milanesa-de-cerdo-600x600-1-300x300.webp" alt="Huevo Rojo">
+                    <div class="name"><h3>MILANESA DE CERDO 500g</h2> </div>
+                    <div class="price">$60</div>
+                    <div class="btn"><button>Agregar al carrito</button></div>
+                </div>
+            </div>
+            <div class="card_item" id="product">
+                <div class="card_inner">
+                    <img src="img/Cerdo/chuleta-ahumada-cerdo-600x600-1-300x300.webp" alt="">
+                    <div class="name"><h3>CHULETA AHUMADA 5pz</h2></div>
+                    <div class="price">$45</div>
+                    <div class="btn"><button>Agregar al carrito</button></div>
+                </div>
+            </div>
+            <div class="card_item" id="product">
+                <div class="card_inner">
+                    <img src="img/Cerdo/carne-para-asar-600x600-1-300x300.webp" alt="">
+                    <div class="name"><h3>CARNE PA ASAR 500g</h2></div>
+                    <div class="price">$75</div>
+                    <div class="btn"><button>Agregar al carrito</button></div>
+                </div>
+            </div>
+            <div class="card_item" id="product">
+                <div class="card_inner">
+                    <img src="img/Cerdo/trozo-de-cerdo-600x600-1-300x300.webp" alt="">
+                    <div class="name"><h3>TROZO DE CERDO 500g</h2></div>
+                    <div class="price">$55</div>
+                    <div class="btn"><button>Agregar al carrito</button></div>
+                </div>
+            </div>
+            <div class="card_item" id="product">
+                <div class="card_inner">
+                    <img src="img/Cerdo/molida-de-cerdo-300x300.webp" alt="">
+                    <div class="name"><h3>MOLIDA DE CERDO 500g</h2></div>
+                    <div class="price">$45</div>
+                    <div class="btn"><button>Agregar al carrito</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+-->
+            <!--RES-->
+<!--
+    <div id="Res"></div>
+    <div class="title">
+        <h1>Res</h1>
+    </div>
+
+    <div class="wrapper">
+        <div class="cards_wrap">
+            <div class="card_item" id="product">
+                <div class="card_inner">
+                    <img src="img/Res/8159-hamburguesa-arrachera-2-4kg-300x300.webp" alt="Huevo Rojo">
+                    <div class="name"><h3>HAMBURGUESA ARRACHERA 2.4kg</h2> </div>
+                    <div class="price">$400</div>
+                    <div class="btn"><button>Agregar al carrito</button></div>
+                </div>
+            </div>
+            <div class="card_item" id="product">
+                <div class="card_inner">
+                    <img src="img/Res/8175-hamb-sirloin-24-kg-300x300.webp" alt="">
+                    <div class="name"><h3>HAMBURGUESA SIRLON 2.4kg</h2></div>
+                    <div class="price">$500</div>
+                    <div class="btn"><button>Agregar al carrito</button></div>
+                </div>
+            </div>
+            <div class="card_item" id="product">
+                <div class="card_inner">
+                    <img src="img/Res/8227-1trosi-arrachera-burger-904g-300x300.webp" alt="">
+                    <div class="name"><h3>HAMBURGUESA ARRACHERA 904g</h2></div>
+                    <div class="price">$280</div>
+                    <div class="btn"><button>Agregar al carrito</button></div>
+                </div>
+            </div>
+            <div class="card_item" id="product">
+                <div class="card_inner">
+                    <img src="img/Res/sirloin-904-300x300.webp" alt="">
+                    <div class="name"><h3>HAMBURGUESA SIRLON 904g</h2></div>
+                    <div class="price">$300</div>
+                    <div class="btn"><button>Agregar al carrito</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    </header>
+    -->
+    <!--Footer-->
+
+    <script type="text/javascript" src="javascript/nav.js"></script>
+</body>
+</html>
